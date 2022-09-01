@@ -7,16 +7,16 @@ function Work() {
       {
         WorkList.map((item) => (
           <div className='w-2/3 rounded overflow-hidden shadow-lg py-7'>
-            <img className='w-full' src={`${item.image}`} alt={`${item.name}`} />
+            <img data-testid='workImg' className='w-full' src={`${item.image}`} alt={`${item.name}`} />
             <div className='px-6 py-4 text-center'>
-              <div className='font-bold text-xl mb-2 text-blue-700'>{item.name}</div>
-              <p className='text-gray-500 pb-1'>
+              <div data-testid='workName' className='font-bold text-xl mb-2 text-blue-700'>{item.name}</div>
+              <p data-testid='workStack' className='text-gray-500 pb-1'>
                 Stack: {item.stack}
               </p>
-              <p className='text-gray-700 text-base pb-1'>
+              <p data-testid='workAbout' className='text-gray-700 text-base pb-1'>
                 {item.about}
               </p>
-                <span className='text-blue-600'><a href={`${item.site}`}>App</a> . </span><span className='text-blue-600'><a href={`${item.github}`}>Github</a></span>
+                <span data-testid='workSite' className='text-blue-600'><a href={`${item.site}`}>App</a> . </span><span data-testid='workGithub' className='text-blue-600'><a href={`${item.github}`}>Github</a></span>
             </div>
           </div>
         ))
