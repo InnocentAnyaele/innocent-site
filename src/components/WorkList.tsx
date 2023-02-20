@@ -1,9 +1,8 @@
 import garrison from '../img/garrison.png';
 import kwesi from '../img/kwesi.png';
-import music3 from '../img/music3.png';
+import music4 from '../img/music4.png';
 import retail3 from '../img/retail3.png';
-import src_old from '../img/src_old.png';
-import src_aucc1 from '../img/src_aucc1.png';
+import src_dlibt from '../img/src_dlibt.png';
 import dlibt_form1 from '../img/dlibt_form1.png';
 import maame from '../img/maame.png';
 import todo from '../img/todo.png';
@@ -78,7 +77,7 @@ export const WorkList: Array<work> = [
 		name: 'SRC Management system for the DataLink institute of Business and Technology ',
 		about:
 			'A SRC management platform for datalink institute of business and technology that automates all the responsibilities of the student council including functions like, gallery, seminar, handouts, library, voting, e-commerce, messaging, news, student information, halls and clubs and many more. Stack includes React, MongoDB, Express, Node.',
-		image: src_old,
+		image: src_dlibt,
 		site: 'https://src-dlibt.herokuapp.com',
 		github: 'https://github.com/InnocentAnyaele/src_dlibt',
 		stack: 'React, MongoDB, NodeJS, Firebase'
@@ -87,7 +86,7 @@ export const WorkList: Array<work> = [
 		name: 'Music',
 		about:
 			'A music website for musicians to showcase their art. It allows them to upload music and create albums. Developed using Html, Php, SQL.',
-		image: music3,
+		image: music4,
 		site: 'https://github.com/InnocentAnyaele/Music-website-application',
 		github: 'https://github.com/InnocentAnyaele/Music-website-application',
 		stack: 'HTML, CSS, PHP'
@@ -100,16 +99,6 @@ export const WorkList: Array<work> = [
 		site: 'https://github.com/InnocentAnyaele/Retail',
 		github: 'https://github.com/InnocentAnyaele/Retail',
 		stack: 'HTML, CSS, PHP'
-	},
-
-	{
-		name: 'SRC Management system for the Accra University College of Communications ',
-		about:
-			'A SRC management platform for the Accra University College of Communications that automates all the responsibilities of the student council including functions like, gallery, seminar, handouts, library, voting, e-commerce, messaging, news, student information, halls and clubs and many more.. Stack includes React, MongoDB, Express, Node.',
-		image: src_aucc1,
-		site: 'https://src-aucc.herokuapp.com/',
-		github: 'https://github.com/InnocentAnyaele/src-aucc',
-		stack: 'React, MongoDB, NodeJS, Firebase'
 	},
 
 	{
