@@ -8,6 +8,7 @@ import maame from '../img/maame.png';
 import todo from '../img/todo.png';
 import skrambull from '../img/skrambull.png';
 import gopoll from '../img/gopoll.png';
+import worship from '../img/worship-dashboard.png'
 
 interface work {
     name: String,
@@ -27,6 +28,14 @@ export const WorkList: Array<work> = [
 		site: 'https://garrisonpub.netlify.app',
 		github: 'https://github.com/InnocentAnyaele/garrison',
 		stack: 'React',
+	},
+	{
+		name: 'Worship Center',
+		about: 'A church platform that manages members, offerings, tithes as well as other church activities.',
+		image: worship,
+		site: 'https://worship-center-c8eh.vercel.app/',
+		github: 'https://github.com/InnocentAnyaele/worship-center',
+		stack: 'NextJs, React, Firebase',
 	},
 	{
 		name: 'Maame',
