@@ -9,6 +9,7 @@ import todo from '../img/todo.png';
 import skrambull from '../img/skrambull.png';
 import gopoll from '../img/gopoll.png';
 import worship from '../img/worship-dashboard.png'
+import gptContext from '../img/GPTContext1.png'
 
 interface work {
     name: String,
@@ -36,6 +37,14 @@ export const WorkList: Array<work> = [
 		site: 'https://worship-center-c8eh.vercel.app/',
 		github: 'https://github.com/InnocentAnyaele/worship-center',
 		stack: 'NextJs, React, Firebase',
+	},
+	{
+		name: 'GPTContext',
+		about: "An interface built in React and Flask that allows users to upload document and have conversations with ChatGPT's AI within the document context.",
+		image: gptContext,
+		site: 'https://gpt-context.netlify.app/',
+		github: 'https://github.com/InnocentAnyaele/GPTContext',
+		stack: 'React, Flask',
 	},
 	{
 		name: 'Maame',
