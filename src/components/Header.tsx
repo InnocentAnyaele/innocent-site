@@ -9,7 +9,7 @@ function Header() {
         <span className='pb-1 font-semibold'>Software Engineer</span>
         <span>innocentanyaele2000@gmail.com</span>
         <span>+233 557187667</span>
-        <span className='text-blue-600 py-3'><a href='https://github.com/InnocentAnyaele'>Github</a> . <a href='https://www.linkedin.com/in/innocent-anyaele/'>LinkedIn</a></span>
+        <span className='text-blue-600 py-3'><a href='https://github.com/InnocentAnyaele'>Github</a> . <a href='https://www.linkedin.com/in/innocent-anyaele/'>LinkedIn</a> . <a href='https://medium.com/@innocentanyaele'>Medium</a> </span>
         <a
 						href='https://drive.google.com/file/d/10iOOZURELtjoRC39w7yt2-rUgPv7PyeA/view?usp=sharing'>
           <button data-testid = 'getCVButton' className='bg-blue-500 w-30 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg'>Get CV</button>
